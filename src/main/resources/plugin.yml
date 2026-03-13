@@ -1,0 +1,21 @@
+name: BluethAlerts
+version: '${version}'
+main: online.blueth.alerts.BluethAlerts
+api-version: '1.21'
+description: Free Discord webhook alerts for your Minecraft server
+author: LaunchDay Studio
+website: https://blueth.online
+
+commands:
+  alerts:
+    description: Blueth Alerts admin commands
+    usage: /<command> <reload|test|status>
+    permission: blueth.alerts.admin
+
+permissions:
+  blueth.alerts.admin:
+    description: Access to Blueth Alerts admin commands
+    default: op
+  blueth.alerts.monitor:
+    description: Commands from players with this permission are logged
+    default: op

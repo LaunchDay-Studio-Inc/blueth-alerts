@@ -1,0 +1,42 @@
+discord:
+  webhook-url: ""
+  bot-name: "Blueth Alerts"
+  avatar-url: ""
+
+events:
+  player-join:
+    enabled: true
+    color: "#00FF00"
+  player-leave:
+    enabled: true
+    color: "#FF0000"
+  player-death:
+    enabled: true
+    color: "#FF6600"
+  player-chat:
+    enabled: false
+    color: "#AAAAAA"
+  server-start:
+    enabled: true
+    color: "#00AAFF"
+  server-stop:
+    enabled: true
+    color: "#FF0000"
+  player-command:
+    enabled: true
+    permission: "blueth.alerts.monitor"
+    color: "#FFAA00"
+  low-tps:
+    enabled: true
+    threshold: 18.0
+    cooldown: 300
+    color: "#FF0000"
+  first-join:
+    enabled: true
+    color: "#FFD700"
+  advancement:
+    enabled: true
+    color: "#AA00FF"
+
+messages:
+  server-name: "My Server"
